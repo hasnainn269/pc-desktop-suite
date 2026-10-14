@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>PC Desktop Suite - Windows App</title>
+    <meta name="description" content="Offline desktop & web productivity suite with live PC hardware monitor, RAM & ROM storage diagnostics, notes, task planner, secret vault, file manager, calculator, and PDF studio." />
+    
+    <!-- PWA & Windows App Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#090d16" />
+    <meta name="msapplication-TileColor" content="#090d16" />
+    <meta name="msapplication-TileImage" content="/pwa-192x192.png" />
+    <meta name="application-name" content="PC Desktop Suite" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="PC Desktop" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="alternate icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- OpenGraph / Social Cards -->
+    <meta property="og:title" content="PC Desktop Suite - Windows App" />
+    <meta property="og:description" content="Offline desktop & web productivity suite with live PC hardware monitor, RAM & ROM storage diagnostics, notes, task planner, secret vault, file manager, calculator, and PDF studio." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/pwa-512x512.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="/pwa-512x512.png" />
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased select-none overflow-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

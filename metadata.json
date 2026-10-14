@@ -1,0 +1,5 @@
+{
+  "name": "PC Desktop Suite",
+  "description": "Offline desktop & web productivity suite with live PC hardware monitor, RAM & ROM storage diagnostics, notes, task planner, secret vault, file manager, calculator, and PDF studio.",
+  "requestFramePermissions": []
+}
